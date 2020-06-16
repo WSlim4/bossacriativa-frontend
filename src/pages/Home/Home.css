@@ -1,0 +1,125 @@
+.banner {
+    width: 80%;
+}
+.home-container{
+    display: inline-block;
+}
+
+.banner-div {
+    text-align: center;
+    width: 100%;
+    margin-top: 5vh;
+}
+.data, .local {
+    font: 200 15px 'Barlow Semi Condensed', sans-serif;
+    visibility: hidden;
+}
+
+.event-list-div, .video-list-div {
+    width: 80%;
+    margin-left: 10%;
+    min-height: 250px;
+    margin-top: 5vh;
+}
+
+.video-list-div {
+    margin-bottom: 10vh;
+}
+
+.title-div {
+    height: 50px;
+    background-color: #E7C032;
+}
+
+.title-home {
+    padding-top: 10px;
+    text-align: left;
+    font: 700 20px 'Caveat', cursive;
+}
+
+.event {
+    height: 200px;
+    background-size: cover;
+    /*background-image: url("../../assets/themaine.jpg");*/
+    background-repeat: no-repeat;
+}
+.artist {
+    font: 400 25px 'Barlow Semi Condensed', sans-serif;
+    visibility: hidden;
+    margin-left: 5%;
+    padding-top: 2%;
+}
+.infos {
+    text-align: right;
+    margin-right: 5%;
+    padding-top: 120px;
+}
+
+.event:hover {
+    opacity: 0.7;
+    transition: 1s ease-in-out;
+}
+
+.event-list>*>*, .video-list>*>* {
+    padding: 0 !important;
+}
+
+.event-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3px;
+}
+.video-list{
+    display: grid;
+    height: 210px;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.video-list{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.event:hover{
+    opacity: 0.7;
+    transition: 1s ease-in-out;
+}
+.event:hover .data, .event:hover .local {
+    visibility: visible !important;
+    transition: 0.7s ease-in-out;
+    color: white;
+}
+
+.event:hover .artist {
+    visibility: visible !important;
+    transition: 1s ease-in-out;
+    color: #E7C032;
+}
+
+.infos {
+    text-align: right;
+    margin-right: 5%;
+    padding-top: 120px;
+}
+@media only screen and (max-width: 950px){
+    .video-list{
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 35vh;
+    }
+    .event-list{
+        grid-template-columns: 1fr 1fr;
+        margin-top: 2vh;
+    }
+    .video-list div{
+        margin-top: 2vh;
+    }
+}
+@media only screen and (max-width: 557px){
+    .video-list{
+        grid-template-columns: 1fr;
+        margin-bottom: 86vh;
+    }
+    .event-list{
+        grid-template-columns: 1fr;
+    }
+}

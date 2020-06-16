@@ -1,0 +1,96 @@
+.video {
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+.videoaulas-container{
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    width: 100%;
+
+}
+
+.title-home {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 3%;
+    font: 700 20px 'Caveat', cursive;
+    margin-left: 0 !important;
+}
+
+.videoaulas-container .video-contents{
+    width: 100%;
+    padding: 16px;
+}
+.videoaulas-container header{
+    background-color: #E7C032;
+}
+.videoaulas-container ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+    margin-top: 1vh;
+    list-style: none;
+}
+.videoaulas-container ul li{
+    background: #FFF;
+    padding: 16px;
+
+    text-align: center;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.videoaula {
+    font: 600 22px 'Barlow Semi Condensed', sans-serif;
+    padding-top: 5%;
+    color: darkblue;
+    margin-right: 5%;
+}
+
+.instrumento {
+    margin-right: 5%;
+    font: 500 25px 'Barlow Semi Condensed', sans-serif;
+    margin-top: -3.5%;
+}
+
+.aula {
+    margin-right: 5%;
+    font: 500 15px 'Barlow Semi Condensed', sans-serif;
+    margin-top: 1vh;
+}
+
+
+.title-div {
+    height: 50px;
+    background-color: #E7C032;
+}
+
+.videoaulas-container ul li p:nth-child(1){
+    margin-bottom: 2vh;
+}
+
+.videoaulas-container ul li strong{
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+}
+
+.videoaulas-container ul li:hover{
+    background-color: #ddd;
+}
+.btns{
+    width: 50px;
+    margin-top: 3vh;
+}
+
+@media only screen and (max-width: 700px){
+    .videoaulas-container ul{
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+}

@@ -1,0 +1,49 @@
+.title-patrimonio {
+    text-align: center;
+    font: 500 32px 'Barlow Semi Condensed', sans-serif;
+}
+
+.patrimonio-div {
+    margin-top: 5vh;
+    background-color: white;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-bottom: 5vh;
+}
+
+.subtitle-patrimonio {
+    font: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+/* a { color: black;}
+
+a:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+} */
+p, li {
+    font-size: 1.2em;
+}
+.patrimonio-container{
+    /* height: 60vh; */
+}
+
+.text-patrimonio {
+    margin-top: 3vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    /* font-size: 1.2em; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fixIMG {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
