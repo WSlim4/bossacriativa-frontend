@@ -21,13 +21,9 @@
 .banner-div {
     text-align: center;
     font-size: 0.8em;
-    height: 100vh;
+    height: auto;
     margin-top: 5vh;
     display: flex;
-}
-
-.banner-div>* {
-    max-height: 100vh;
 }
 
 .banner-div .section-1{
@@ -45,7 +41,7 @@
 .banner-div .section-2{
     width: 55%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .min-home {
