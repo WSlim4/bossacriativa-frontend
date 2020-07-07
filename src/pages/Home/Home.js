@@ -64,8 +64,6 @@ function Home() {
   return (
     <div className="home-container">
       <div className="carousel-container">
-      <Carousel>
-        <Carousel.Item>
         <div className="banner-div">
         <section className="section-1">
           <p style={{fontSize:'2.4em', fontFamily:'Amatic SC' }}>BOSSACRIATIVA</p>
@@ -79,13 +77,6 @@ function Home() {
         <section className="section-2" style={{backgroundImage:`url(${banner})`}}> 
         </section>
       </div>
-        </Carousel.Item>
-  <Carousel.Item>
-    <div className="banner-div live" style={{backgroundImage: `url(${bannerlive})`}}>
-    </div>
-  </Carousel.Item>
-</Carousel>
-
     </div>
       <div className="home-content">
         <h4 className="title max-home">APRESENTAÇÕES</h4>
