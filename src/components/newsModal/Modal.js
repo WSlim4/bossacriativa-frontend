@@ -121,11 +121,17 @@ export default function FormDialog(props) {
           />
           <div className="App">
                 <h2>Insira aqui o corpo da notícia</h2>
+                { props.action == "adicionar" ?
                 <CKEditor
                     data={description}
                     type="classic"
                     onChange={onEditorChange}
                 />
+                : <CKEditor
+                data={props.description}
+                type="classic"
+                onChange={onEditorChange}
+              />}
           </div>
         </DialogContent>
         <DialogActions>
