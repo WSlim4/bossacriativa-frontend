@@ -46,8 +46,7 @@ export default function FormDialog(props) {
       title,
       introduction,
       img_url,
-      news_id,
-      file_id
+      news_id
     }
     const banner = await api.post('/banners', data)
 
