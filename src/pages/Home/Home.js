@@ -35,7 +35,7 @@ function Home() {
         <Carousel.Item>
         <div className="banner-div">
         <section className="section-1">
-          <p style={{fontSize:'2.4em', fontFamily:'Amatic SC' }}>Homenagem de Cristovão Bastos e Clarisse Grova a Aldir Blanc</p>
+          <p id="sec-title" style={{fontSize:'2.4em', fontFamily:'Amatic SC' }}>Homenagem de Cristovão Bastos e Clarisse Grova a Aldir Blanc</p>
             <p className="min-home">Homenagem de Cristovão Bastos e Clarisse Grova a Aldir Blanc estreia, aqui no Bossa Criativa nesta sexta-feira, 10/7, a partir das 18h</p>
             <a className="leia btn news-btn" onClick={()=> { history.push(`/noticia/${5}`)}}>Leia mais</a>
           <br/>

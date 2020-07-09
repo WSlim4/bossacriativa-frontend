@@ -18,9 +18,12 @@
     font-size: 1.4em;
 }
 
+#sec-title{
+    font-size: 2em;
+}
 .home-content div p{
     padding-left: 17px;
-    font-size: 2em;
+    font-size: 1.2em;
 
 }
 
