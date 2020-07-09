@@ -13,8 +13,9 @@
 
 .news-btn{
     margin-top: 60vh !important;
-    width: 300px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
+    font-size: 1.4em;
 }
 
 .home-content div p{
