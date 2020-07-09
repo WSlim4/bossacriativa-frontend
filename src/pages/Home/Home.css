@@ -28,6 +28,8 @@
 .news-btn{
     margin-top: 40vh !important;
     width: 100px;
+    text-align: center;
+    font-size: 1.3em;
     height: 30px;
 }
 .title{
