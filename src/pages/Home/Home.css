@@ -10,6 +10,9 @@
     display: inline-block;
     width: 100%;
 }
+.news-btn{
+    margin-top: 40vh !important;
+}
 .home-content div p{
     padding-left: 17px;
     font-size: 1.2em;
