@@ -61,8 +61,7 @@ export default function FormDialog(props) {
       title,
       introduction,
       description,
-      img_url,
-      file_id
+      img_url
     }
       try{
         const news = await api.post(`/news`, data)
@@ -85,8 +84,7 @@ export default function FormDialog(props) {
       title,
       introduction,
       description,
-      img_url,
-      file_id
+      img_url
     }
       try{
         await api.put(`/news/${props.id}`, data)

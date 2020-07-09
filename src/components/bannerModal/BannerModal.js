@@ -46,8 +46,7 @@ export default function FormDialog(props) {
     const data = {
       title,
       introduction,
-      img_url,
-      file_id
+      img_url
     }
       try{
         await api.post('/banners', data)
@@ -64,8 +63,7 @@ export default function FormDialog(props) {
     const data = {
         title,
         introduction,
-        img_url,
-        file_id
+        img_url
     }
 
     try{

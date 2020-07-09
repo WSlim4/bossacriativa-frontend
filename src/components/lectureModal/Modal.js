@@ -48,8 +48,7 @@ export default function FormDialog(props) {
         introduction,
         theme_color,
         about_speaker,
-        img_url,
-        file_id
+        img_url
     }
       try{
         await api.post('/lectures', lectureData)
@@ -70,8 +69,7 @@ export default function FormDialog(props) {
       category,
       theme_color,
       about_speaker,
-      img_url,
-      file_id
+      img_url
     }
 
     try{

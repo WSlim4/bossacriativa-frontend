@@ -57,8 +57,7 @@ export default function FormDialog(props) {
       category,
       theme_color,
       img_url,
-      introduction,
-      file_id
+      introduction
     }
       try{
         await api.post('/workshops', data)
