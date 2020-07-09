@@ -50,9 +50,6 @@ function Home() {
           <p style={{fontSize:'2.4em', fontFamily:'Amatic SC' }}>BOSSACRIATIVA</p>
             <p className="min-home">No Bossa Criativa – Arte de Toda Gente, a Fundação Nacional de Artes – Funarte e a Universidade Federal do Rio de Janeiro (UFRJ) reúnem apresentações e capacitação em diversas formas artísticas e de economia criativa.</p>
 
-            <p className="min-home">Com curadoria da Escola de Música da UFRJ, o Bossa Criativa tem com foco na diversidade, na democratização da cultura no Brasil e na difusão das nossas artes em todas as suas formas e origens, de maneira inclusiva.</p>
-
-            <p className="min-home">Aqui você vai assistir gratuitamente a pocket shows, apresentações de projetos e videoaulas com a participação de artistas e especialistas de todo o país. Em 2021, o projeto vai promover eventos presenciais em nove pontos do patrimônio mundial no Brasil.</p>
           <br/>
         </section>
         <section className="section-2" style={{backgroundImage:`url(${banner})`}}> 
