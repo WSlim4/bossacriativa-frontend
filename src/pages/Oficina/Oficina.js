@@ -40,7 +40,6 @@ class Oficina extends React.Component{
         this.setState({ first: array })
         document.querySelector('div.video-container').scrollIntoView()
     }
-
     render(){
         const first_video = this.state.first
         const videos = this.state.data
@@ -89,7 +88,6 @@ class Oficina extends React.Component{
                             height="250px"
                         />
                         <h6 className="oficina-name" style={{backgroundColor: `${infos[0].theme_color}`}}>{video.title}</h6>
-                        
                         <p className="quero" onClick={()=>this.changeArray(video)}>Quero assistir!</p>
                     </div>
                 )}
