@@ -11,7 +11,7 @@
     "bootstrap": "^4.5.0",
     "colcade": "^0.2.0",
     "history": "^4.10.1",
-    "immer": "^6.0.9",
+    "immer": "^8.0.1",
     "list-react-files": "^0.2.0",
     "material-ui": "^0.20.2",
     "prop-types": "^15.7.2",
